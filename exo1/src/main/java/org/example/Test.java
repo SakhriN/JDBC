@@ -2,12 +2,11 @@ package org.example;
 
 import org.example.utils.ConnectionUtils;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 import java.sql.Date;
 import java.util.Scanner;
 
-public class Demo2 {
+public class Test {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
