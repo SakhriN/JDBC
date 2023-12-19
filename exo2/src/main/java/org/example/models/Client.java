@@ -7,13 +7,13 @@ public class Client {
     private String nom;
     private String prenom;
     private Integer identifiant;
-    private String numeroTelephone;
+    private Integer numeroTelephone;
     private List<CompteBancaire> comptes;
 
     public Client() {
     }
 
-    public Client(String nom, String prenom, Integer identifiant, String numeroTelephone) {
+    public Client(String nom, String prenom, Integer identifiant, Integer numeroTelephone) {
         this.nom = nom;
         this.prenom = prenom;
         this.identifiant = identifiant;
@@ -44,11 +44,11 @@ public class Client {
         this.identifiant = identifiant;
     }
 
-    public String getNumeroTelephone() {
+    public Integer getNumeroTelephone() {
         return numeroTelephone;
     }
 
-    public void setNumeroTelephone(String numeroTelephone) {
+    public void setNumeroTelephone(Integer numeroTelephone) {
         this.numeroTelephone = numeroTelephone;
     }
 
@@ -58,5 +58,17 @@ public class Client {
 
     public void setComptes(List<CompteBancaire> comptes) {
         this.comptes = comptes;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", identifiant=" + identifiant +
+                ", numeroTelephone=" + numeroTelephone +
+                ", comptes=" + comptes +
+                '}';
     }
 }
