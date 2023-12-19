@@ -1,1 +1,5 @@
-J'ai réussis a faire l'ajout, l'affichage de tous les étudiants, affichage des étudiants selon l'id de classe et la suppression d un etudiant, mais je n'ai pas fait d'IHM et si on tappe quelque chose d'autre qu'une date, le programme ne fonctionne plus.
+# Exo 1 :
+Terminé désormais, meme IHM
+
+# Exo 2 :
+Incomplet et je ne comprends pas du tout comment faire du DAO.
